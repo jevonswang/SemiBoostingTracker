@@ -9,7 +9,6 @@
 
 class FeatureHaar
 {
-
 public:
 
 	FeatureHaar(Size patchSize);
@@ -42,5 +41,4 @@ private:
 	Rect* m_scaleAreas;// areas after scaling
 	float* m_scaleWeights; // weights after scaling
 	float m_response;
-
 };
